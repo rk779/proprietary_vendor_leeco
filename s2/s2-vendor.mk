@@ -478,6 +478,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/leeco/s2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/s2/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/leeco/s2/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/leeco/s2/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/leeco/s2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
