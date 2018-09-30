@@ -356,10 +356,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/leeco/s2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/leeco/s2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/s2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/leeco/s2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/s2/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/leeco/s2/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/leeco/s2/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
@@ -383,10 +380,20 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/leeco/s2/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/leeco/s2/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
     vendor/leeco/s2/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
+    vendor/leeco/s2/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/leeco/s2/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/leeco/s2/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/leeco/s2/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/leeco/s2/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
+    vendor/leeco/s2/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/leeco/s2/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/leeco/s2/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/leeco/s2/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -396,10 +403,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/leeco/s2/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/leeco/s2/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/leeco/s2/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/leeco/s2/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
     vendor/leeco/s2/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
     vendor/leeco/s2/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/leeco/s2/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
     vendor/leeco/s2/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/leeco/s2/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/leeco/s2/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -408,7 +415,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/leeco/s2/proprietary/lib/libqvr_adsp_driver_stub.so:system/lib/libqvr_adsp_driver_stub.so \
     vendor/leeco/s2/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/leeco/s2/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/leeco/s2/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/s2/proprietary/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:system/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
     vendor/leeco/s2/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -427,10 +433,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/leeco/s2/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/leeco/s2/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/leeco/s2/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/leeco/s2/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/leeco/s2/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/leeco/s2/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/leeco/s2/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
     vendor/leeco/s2/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/leeco/s2/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/leeco/s2/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
@@ -439,7 +445,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/leeco/s2/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/leeco/s2/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/leeco/s2/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/leeco/s2/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/leeco/s2/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/leeco/s2/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
@@ -478,8 +483,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/leeco/s2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/s2/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/leeco/s2/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/leeco/s2/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/leeco/s2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/leeco/s2/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
@@ -494,8 +499,16 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml \
@@ -519,13 +532,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/leeco/s2/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/leeco/s2/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
-    vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
-    vendor/leeco/s2/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/com.quicinc.cne.server@1.0.so:system/vendor/lib/com.quicinc.cne.server@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/com.quicinc.cne.server@2.0.so:system/vendor/lib/com.quicinc.cne.server@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -655,7 +663,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.data.factory@1.0.so:system/vendor/lib/vendor.qti.data.factory@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
@@ -670,18 +681,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.latency@2.0.so:system/vendor/lib/vendor.qti.latency@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:system/vendor/lib64/com.quicinc.cne.constants@2.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/com.quicinc.cne.server@1.0.so:system/vendor/lib64/com.quicinc.cne.server@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:system/vendor/lib64/com.quicinc.cne.server@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/leeco/s2/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/leeco/s2/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -834,8 +842,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.data.factory@1.0.so:system/vendor/lib64/vendor.qti.data.factory@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so \
@@ -851,14 +862,24 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/leeco/s2/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
     libantradio \
     vendor.display.color@1.0 \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.api@1.1 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.constants@2.1 \
+    com.quicinc.cne.server@2.0 \
+    com.quicinc.cne.server@2.1 \
+    com.quicinc.cne.server@2.2 \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
