@@ -22,7 +22,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG resource opcode, value-->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="3000"  Target="msm8952"
+            Id="0x00001081" Type="1" Enable="true" Timeout="3000"  Target="msm8976"
             Resources="0x40C00000, 0x1, 0x40800100, 0x578, 0x40800000, 0x579" />
 
         <!-- SCHEDBOOST resource opcode, value-->
@@ -49,7 +49,7 @@
         <!-- GPU DISABLE resource opcode, value-->
 
         <Config
-            Id="0x00001082" Type="1" Enable="true" Timeout="400" Target="msm8952"
+            Id="0x00001082" Type="1" Enable="true" Timeout="400" Target="msm8976"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0x708,
                        0x40800100, 0xFFF, 0x40400000, 0x1, 0x42C10000, 0x1, 0x4281C000, 0x1" />
 
@@ -58,7 +58,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="true" Timeout="600"  Target="msm8952"
+            Id="0x00001083" Enable="true" Timeout="600"  Target="msm8976"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
@@ -72,7 +72,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <Config
-            Id="0x00001080" Type="1" Enable="true"  Target="msm8952"
+            Id="0x00001080" Type="1" Enable="true"  Target="msm8976"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446, 0x40C00000, 0x2" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
@@ -86,7 +86,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value -->
         <!-- SCHEDBOOST resource opcode, value-->
         <Config
-            Id="0x00001080" Type="2" Enable="true"  Target="msm8952"
+            Id="0x00001080" Type="2" Enable="true"  Target="msm8976"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2" />
 
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
@@ -100,7 +100,7 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- Type="4", Pre-Fling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="msm8952"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="msm8976"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2"  />
 
     <!--Webview Scroll boost-->
@@ -109,7 +109,7 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- Type="5", webview Scroll boost -->
         <Config
-            Id="0x00001080" Type="5" Enable="true" Timeout="2500" Target="msm8952"
+            Id="0x00001080" Type="5" Enable="true" Timeout="2500" Target="msm8976"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2" />
   
     <!--Drag boost-->
@@ -118,7 +118,7 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- Type="1", Drag boost -->
         <Config
-            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="msm8952"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="msm8976"
             Resources="0x40800100, 0x40C, 0x40800000, 0x446,0x40C00000, 0x2" />
 
     <!--PackageInstall boost-->
@@ -129,7 +129,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- Type="", Package Install boost -->
         <Config
-            Id="0x00001088" Enable="true" Target="msm8952"
+            Id="0x00001088" Enable="true" Target="msm8976"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100,0xFFF" /> 
         
@@ -141,7 +141,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- Type="", Rotation latency boost -->
         <Config
-            Id="0x00001089" Enable="true" Timeout="1500" Target="msm8952"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="msm8976"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100,0xFFF" />
 
@@ -154,7 +154,7 @@
         <!-- GPU MIN_FREQUENCY resource opcode,value-->
         <!-- Type="", Rotation animation boost -->
         <Config
-            Id="0x00001090" Enable="true" Timeout="1000" Target="msm8952"
+            Id="0x00001090" Enable="true" Timeout="1000" Target="msm8976"
             Resources="0x40800100, 0x578, 0x4280C000, 0x596" />
 
     </PerfBoost>
